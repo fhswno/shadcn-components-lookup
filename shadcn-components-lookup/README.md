@@ -1,71 +1,51 @@
-# shadcn-components-lookup README
+# Shadcn Component Lookup
 
-This is the README for your extension "shadcn-components-lookup". After writing up a brief description, we recommend including the following sections.
+**Instantly preview and add any shadcn/ui component — without leaving your editor.**
 
-## Features
+Tired of opening the browser, searching ui.shadcn.com, and copy-pasting commands?
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Just press `Cmd+P` → type `> Shadcn` → pick a component → done.
 
-For example if there is an image subfolder under your extension project workspace:
+### Features
 
-\!\[feature X\]\(images/feature-x.png\)
+- **Zero delay** — fully offline component list (60+ components)
+- **Official preview** — opens the real ui.shadcn.com docs in a beautiful webview
+- **One-click copy** — copies the exact install command (npm) to clipboard  
+  → `npx shadcn@latest add button`
+- **Perfect autocomplete** — fuzzy search by name (e.g. "input", "dialog", "toast")
+- Works in **VS Code**, **Cursor**, **Windsurf**, **Trae**, **Kilo**, everywhere.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### Usage
 
-## Requirements
+1. Press `Cmd+P` (or `Ctrl+P`)
+2. Type `> Shadcn Components: Lookup`
+3. Start typing a component name (e.g. `button`, `dialog`, `card`)
+4. Press Enter
+5. Click **"Copy Install Command"** → paste into terminal
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### Preview
 
-## Extension Settings
+### Supported Components
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+All official shadcn/ui components are included and always up-to-date:
 
-For example:
+- Accordion · Alert Dialog · Button · Card · Checkbox · Dialog · Drawer · Input · Select · Table · Toast · Tooltip · and 50+ more
 
-This extension contributes the following settings:
+You can update the component list by editing the `components.json` file; only the component name and URL slug are required.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### Installation
 
-## Known Issues
+Search **"Shadcn Components Lookup"** by **fhswno** in the Extensions view.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Or install directly:
 
-## Release Notes
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=fhswno.shadcn-components-lookup)
+- [Open VSX Registry](https://open-vsx.org/extension/fhswno/shadcn-components-lookup)
 
-Users appreciate release notes as you update your extension.
+### License
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+MIT © [fhswno](https://github.com/fhswno)
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Made with ❤️ in London.
