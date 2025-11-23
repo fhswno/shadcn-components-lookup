@@ -25,6 +25,8 @@ Just press `Cmd+P` → type `> Shadcn` → pick a component → done.
 
 ### Preview
 
+<img width="1512" height="952" alt="Screenshot 2025-11-23 at 3 12 17 PM" src="https://github.com/user-attachments/assets/c755a6c0-ed18-47d3-a42b-1a6a8ca767c4" />
+
 ### Supported Components
 
 All official shadcn/ui components are included and always up-to-date:
